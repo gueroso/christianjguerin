@@ -6,6 +6,18 @@
 
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 
+
+/*Add font types*/
+
+@font-face{
+  font-family: "Aller";
+  src: url(../fonts/Aller_Rg.ttf); 
+  }
+@font-face{
+  font-family: "CarroisGothic";
+  src: url(../fonts/CarroisGothic-Regular.ttf);
+
+  
 article,
 aside,
 details,
@@ -495,7 +507,7 @@ h6,
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 0;
 }
 
 .lead {
@@ -682,7 +694,7 @@ blockquote {
 }
 
 blockquote p {
-  font-size: 17.5px;
+  font-size: 1em;
   font-weight: 300;
   line-height: 1.25;
 }

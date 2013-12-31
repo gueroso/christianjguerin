@@ -74,12 +74,12 @@ a:hover{
 }
 .page-footer{
   padding-bottom: 9px;
-  margin: 40px 0 20px;
+  margin-top: 70vh;
   border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
   font-size: 3em;
   font-color: black;
   text-align: center;
-  text-transform: white: 
 }
 
 @media (min-width: 768px) {
