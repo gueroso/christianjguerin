@@ -65,3 +65,33 @@ a:hover{
     background-image: url(../patterns/skelatal_weave.png);
     
 }
+
+.container_bottom{
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.page-footer{
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+@media (min-width: 768px) {
+  .container_bottom {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container_bottom {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container_bottom {
+    width: 1170px;
+  }
+}
