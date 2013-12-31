@@ -1,0 +1,60 @@
+html
+{
+	height:100%;
+	width:100%;
+}
+body
+{
+	height:100%;
+	width:100%;
+	background-image:url(../images/rainbow.jpg);
+	background-position: top center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+@font-face{
+	font-family: Aller;
+	src: url(../fonts/Aller_Rg.ttf);
+	}
+
+@font-face{
+	font-family: CarroisGothic; 
+	src: url(../fonts/CarroisGothic-Regular.ttf);
+}
+
+h3{
+	font-size: 2.5em;
+	font-color: red;
+    font-family: Aller;
+	position:relative;
+}
+a{
+	font-size:1em;
+	font-color: #FFFFFF;
+	font-family: CarroisGothic;
+}
+a:hover{
+	color: blue;
+	font-size: 1.5em;
+}
+
+
+
+
+.wrapper{
+	height: 40%;
+	width:100%;
+}
+
+.info-box{
+	padding: 30px;
+	background-image: url(../patterns/black_twill.png);
+	background-repeat: repeat;
+	background-position: 80% 50%;
+	position: absolute;
+	z-index:20;
+	border-style: solid;
+	border: 2px solid #FFF;
+}
