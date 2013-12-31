@@ -15,20 +15,19 @@ body
 }
 
 @font-face{
-	font-family: Aller;
-	src: url(../fonts/Aller_Rg.ttf);
+	font-family: "Aller";
+	src: url(../fonts/Aller_Rg.ttf); 
 	}
-
 @font-face{
-	font-family: CarroisGothic; 
+	font-family: "CarroisGothic";
 	src: url(../fonts/CarroisGothic-Regular.ttf);
+
 }
 
-h3{
+h1{
 	font-size: 2.5em;
-	font-color: red;
-    font-family: Aller;
-	position:relative;
+	font-family: "Aller";
+	font-color: #ff0000;
 }
 a{
 	font-size:1em;
