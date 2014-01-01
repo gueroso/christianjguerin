@@ -46,7 +46,7 @@ i{
 i:hover{
 	color: hsla(241, 100%, 38%, 0.69);
 	position: center;
-	-webkit-transform: scale(1.25) rotate(2turn) translate(200%);
+	-webkit-transform: scale(1.25) rotate(2turn);
 	transition: 1s ease;
 }
 
