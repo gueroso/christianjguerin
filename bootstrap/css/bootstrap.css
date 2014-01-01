@@ -409,10 +409,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Aller, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Aller", CarroisGothic, CarroisGothic-Regular "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: hsla(241, 100%, 38%, 0.69);
 }
 
 h1 small,
@@ -441,7 +441,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #999999;
+  color: inherit;
 }
 
 h1,

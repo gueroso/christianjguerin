@@ -26,7 +26,7 @@ body
 
 h1{
 	font-size: 2.5em;
-	font-family: Aller, CarroisGothic, CarroisGothic-Regular;
+	font-family: CarroisGothic, CarroisGothic-Regular;
 	font-color: #ff0000;
 }
 a{
@@ -46,18 +46,9 @@ i{
 i:hover{
 	color: hsla(241, 100%, 38%, 0.69);
 	position: center;
-	-webkit-transform: scale(1.5) rotate(2turn);
+	-webkit-transform: scale(1.25) rotate(2turn) translate(200%);
 	transition: 1s ease;
 }
-i:last-child{
-	color: hsla(355, 100%, 38%, 0.69);
-
-}
-
-i:last-child:hover{
-	color:hsla(241, 100%, 38%, 0.69);
-	-webkit-transform: scale(1.25) translate(200%);
-}	
 
 .wrapper{
 	height: 40%;
