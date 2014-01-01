@@ -26,7 +26,7 @@ body
 
 h1{
 	font-size: 2.5em;
-	font-family: "Aller";
+	font-family: Aller;
 	font-color: #ff0000;
 }
 a{
@@ -40,11 +40,14 @@ a:hover{
 }
 
 i{
-	color: black;
-	position: centered;
+	color: #428bca;
+	position: center;
 }
 i:hover{
-	col
+	color: black;
+	position: center;
+	-webkit-transform: scale(1.5) rotate(2turn);
+	transition: 1s ease;
 }
 
 
