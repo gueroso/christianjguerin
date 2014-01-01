@@ -31,16 +31,16 @@ h1{
 }
 a{
 	font-size:1em;
-	font-color: #FFFFFF;
+	font-color: black;
 	font-family: CarroisGothic;
 }
 a:hover{
-	color: blue;
+	color: red;
 	font-size: 1.5em;
 }
 
 i{
-	color: #428bca;
+	color: red;
 	position: center;
 }
 i:hover{

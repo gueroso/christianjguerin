@@ -17,7 +17,7 @@
   font-family: "CarroisGothic";
   src: url(../fonts/CarroisGothic-Regular.ttf);
 
-  
+
 article,
 aside,
 details,
@@ -839,13 +839,13 @@ pre code {
 }
 
 .row {
-  margin-right: -15px;
-  margin-left: -15px;
+  margin:0;
+  display: inline-block;
 }
 
 .row:before,
 .row:after {
-  display: table;
+  display: inline-block;
   content: " ";
 }
 
@@ -855,7 +855,7 @@ pre code {
 
 .row:before,
 .row:after {
-  display: table;
+  display: inline-block;
   content: " ";
 }
 
@@ -4250,7 +4250,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #428bca;
+  background-color: red;
 }
 
 .nav-stacked > li {
