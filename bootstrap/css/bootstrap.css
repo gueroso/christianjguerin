@@ -412,7 +412,7 @@ h6,
   font-family: "Aller", CarroisGothic, CarroisGothic-Regular "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
-  color: hsla(241, 100%, 38%, 0.69);
+  color: hsla(241, 100%, 38%, 0.69);d
 }
 
 h1 small,
@@ -478,9 +478,14 @@ h6 .small {
 
 h1,
 .h1 {
-  font-size: 2.5em;
+  font-size: 2em;
+  color: oldlace;
+  font-family: Aller;
 }
-
+h1:hover{
+  font-size: 2.5em;
+  color: hsla(332, 100%, 36%, 0.54);
+}
 h2,
 .h2 {
   font-size: 30px;
