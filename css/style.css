@@ -174,3 +174,18 @@ i:hover{
     width: 1170px;
   }
 }
+
+/*Layout for jumbotron*/
+.jumbotron{
+	text-align: center;
+}
+
+.container{
+	max-width:1000px;
+}
+.box-lg{
+	height: 80%;
+	width: 80%;
+	border: solid;
+	border-radius: 6px;
+}
