@@ -1,4 +1,0 @@
-christianjguerin
-================
-
-Personal Website
